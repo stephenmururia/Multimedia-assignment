@@ -1,56 +1,53 @@
 
+
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Blog</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>My Simple Blog</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    img { width: 300px; margin: 10px; }
+    audio { margin-top: 20px; }
+    nav a { margin: 10px; text-decoration: none; }
+    section { margin-top: 30px; }
+  </style>
 </head>
 <body>
-
-<header>
-  <h1>My Blog</h1>
+  <h1>Welcome to My Blog</h1>
   <nav>
     <a href="#home">Home</a>
-    <a href="#blog">Blog</a>
+    <a href="#blog">Blog Post</a>
     <a href="#gallery">Gallery</a>
     <a href="#about">About</a>
   </nav>
-</header>
 
-<section id="home">
-  <h2>Welcome</h2>
-  <p>This is where I share my life stories.</p>
-  <img src="images/banner.jpg" alt="Banner" />
-</section>
+  <section id="home">
+    <h2>Home</h2>
+    <p>This is the homepage of my blog.</p>
+  </section>
 
-<section id="blog">
-  <h2>Nature Walk</h2>
-  <p>Here's what I experienced.</p>
-  <img src="images/nature.jpg" alt="Nature Walk" />
-  <audio controls>
-    <source src="audio/birds.mp3" type="audio/mpeg" />
-    Your browser does not support audio.
-  </audio>
-</section>
+  <section id="blog">
+    <h2>Blog Post</h2>
+    <p>Today I learned how to build a simple HTML blog with images and audio.</p>
+  </section>
 
-<section id="gallery">
-  <h2>Gallery</h2>
-  <img src="images/photo1.jpg" alt="Photo 1" />
-  <img src="images/photo2.jpg" alt="Photo 2" />
-</section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <img src="photo1.jpg" alt="Photo 1">
+    <img src="photo2.jpg" alt="Photo 2">
+    <img src="photo3.jpg" alt="Photo 3">
+  </section>
 
-<section id="about">
-  <h2>About Me</h2>
-<p>I love blogging and sharing media.</p>
-  <img src="images/me.jpg" alt="Me" />
-</section>
-
-<footer>
-  <p>© 2025 My Blog</p>
-</footer>
-
+  <section id="about">
+    <h2>About</h2>
+    <p>This blog is created for learning purposes.</p>
+    <audio controls>
+      <source src="blog-audio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+    </audio>
+  </section>
 </body>
 </html>
+```
+
